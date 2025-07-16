@@ -1,0 +1,224 @@
+SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "50A6CDA4F7C1474A"
+ Factions {
+  SCR_CampaignFaction "{65D8709EEEE01E9E}" {
+   FactionKey "MEI"
+   FactionColor 0.4072 0.4397 0.0704 0
+   UIInfo SCR_FactionUIInfo "{65D8709F8A86C057}" {
+    Name "Middle East Insurgents"
+    Description "Middle East Insurgents"
+    Icon "{0EE33F6BA6189DD2}Textures/Flags/LogoMEI.edds"
+    m_sNameUpper "Middle East Insurgents"
+   }
+   "Identity of soldiers" FactionIdentity "{65D8709F7B3042C2}" {
+    VisualIdentityArray {
+     VisualIdentity "{570CE64C790A3C7D}" {
+     }
+     VisualIdentity "{570CE64C784286B5}" {
+     }
+     VisualIdentity "{570CFDC06CAAD480}" {
+     }
+     VisualIdentity "{570CFDC05A2BFCE8}" {
+     }
+     VisualIdentity "{570CFDC037CCBCD3}" {
+     }
+     VisualIdentity "{570CFDC1C8B17A43}" {
+     }
+    }
+    SoundIdentityArray {
+     SoundIdentity "{64D89692E7FD6014}" {
+     }
+     SoundIdentity "{64D89692E7FD601B}" {
+     }
+     SoundIdentity "{64D89692E7FD601A}" {
+     }
+     SoundIdentity "{64D89692E7FD601D}" {
+     }
+     SoundIdentity "{64D89692E7FD5007}" {
+     }
+     SoundIdentity "{64D89692E7FD5005}" {
+     }
+    }
+    SocialIdentity SocialIdentity "{65D8709F51D19C5A}" {
+     NamesConfig {
+      "Amir" "Hakim" "Karim" "Malik" "Nadir" "Rami" "Samir" "Tariq" "Yasin" "Ziad" "Anwar" "Basim" "Fadil" "Hamza" "Idris" "Jalil" "Marwan" "Qasim" "Rashid" "Saif" "Waleed" "Zaki"
+     }
+     SurnamesConfig {
+      "Al-Farsi" "Al-Mansouri" "Al-Rashid" "Al-Tamimi" "Khalifa" "Najjar" "Hashimi" "Mahmoud" "Sabbagh" "Khatib" "Husseini" "Wacks" "Mutairi" "Jabri" "Al-Dabbagh" "Al-Bakri" "Al-Fayez"
+     }
+    }
+   }
+   m_iOrder 2000
+   m_OutlineFactionColor 0.196 0.208 0.11 1
+   m_NotificationFactionColor 0.408 0.439 0.071 1
+   m_NotificationTextFactionColor 0.408 0.439 0.071 1
+   m_bIsPlayable 0
+   m_bShowInWelcomeScreenIfNonPlayable 0
+   m_sFactionFlag "{069E5C79BF4601F9}Textures/Flags/MEI.edds"
+   m_FactionFlagMaterial "{19CFEC4F05FD38C9}Assets/Props/Fabric/Flags/Data/Flag_1_2_MiddleEastInsurgents.emat"
+   m_FactionLabel FACTION_MEI
+   m_aFriendlyFactionsIds {
+    "CIV" "FIA"
+   }
+   m_CallsignInfo SCR_FactionCallsignInfo "{65D8709F15C34BE9}" {
+    m_bIsAssignedRandomly 0
+    m_aCompanyNames {
+     SCR_CallsignInfo "{64D896904E7C9528}" {
+     }
+     SCR_CallsignInfo "{64D896904E7C9521}" {
+     }
+     SCR_CallsignInfo "{64D896904E7C9525}" {
+     }
+     SCR_CallsignInfo "{64D896904E7C9524}" {
+     }
+     SCR_CallsignInfo "{64D896904E7C953B}" {
+     }
+     SCR_CallsignInfo "{64D896904E7CCB7D}" {
+     }
+     SCR_CallsignInfo "{64D896904E7CCB7E}" {
+     }
+     SCR_CallsignInfo "{64D896904E7CCB79}" {
+     }
+    }
+    m_aPlatoonNames {
+     SCR_CallsignInfo "{64D896904E7CCB78}" {
+     }
+     SCR_CallsignInfo "{64D896904E7CCB7B}" {
+     }
+     SCR_CallsignInfo "{64D896904E7CCB7A}" {
+     }
+     SCR_CallsignInfo "{64D896904E7CCB75}" {
+     }
+    }
+    m_aSquadNames {
+     SCR_CallsignInfo "{64D896904E7CCB74}" {
+     }
+     SCR_CallsignInfo "{64D896904E7CCB45}" {
+     }
+     SCR_CallsignInfo "{64D896904E7CCB44}" {
+     }
+     SCR_CallsignInfo "{64D896904E7CCB47}" {
+     }
+    }
+    m_sCallsignGroupFormat "%1 %2 %3"
+    m_sCallsignCharacterFormat "%1 %2 %3: %4"
+    m_sCallsignCharacterWithRoleFormat "%1 %2 %3: %4"
+    m_aCharacterRoleCallsigns {
+     SCR_LeaderRoleCallsign "{64D896904E7CCB46}" {
+     }
+     SCR_RadioOperatorRoleCallsign "{64D896904E7CCB41}" {
+     }
+     SCR_PlayerLeaderRoleCallsign "{64D896904E7CCB40}" {
+     }
+    }
+   }
+   m_sFactionRadioEncryptionKey "kebabCuscus"
+   m_iFactionRadioFrequency 52000
+   m_aEntityCatalogs {
+    SCR_EntityCatalog "{65D8709F08FC3BD6}" {
+     m_eEntityCatalogType CHARACTER
+     m_aEntityEntryList {
+      SCR_EntityCatalogEntry "{6583450BCE5E80AB}" {
+       m_sEntityPrefab "{9CE1BEFD75DE8BF1}Prefabs/Characters/Factions/IND/MEI/Character_MEI_Randomized.et"
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5E8094}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5E809B}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5E809E}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5EF821}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5EF829}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5F6969}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5F696D}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5F8363}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5FD506}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5FE3DE}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5FE3D3}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5FE3D5}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5FE3D6}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5028DE}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE5028D9}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE508180}" {
+      }
+      SCR_EntityCatalogEntry "{6583450BCE50818D}" {
+      }
+     }
+    }
+    SCR_EntityCatalog "{65D8709F0974C17A}" {
+    }
+    SCR_EntityCatalog "{65D8709CF6A8AE18}" {
+    }
+    SCR_EntityCatalog "{65D8709CF3FE2976}" {
+    }
+    SCR_EntityCatalog "{65D8709CF0B204E0}" {
+    }
+    SCR_EntityCatalog "{65D8709CF1DA31F1}" {
+    }
+   }
+   m_sGroupFlagsImageSet "{301FC1A2A46D3E0D}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor.imageset"
+   m_sGroupFlagsImageSetOutlines "{C07D82625600BA21}UI/Textures/GroupManagement/FlagIcons/GroupFlagsIndfor-outline.imageset"
+   m_aFlagNames {
+    "infantry" "amphibious" "anti-air" "anti-air-artilery" "anti-armor-motorized" "antiarmor" "armored" "artillery" "combined" "helicopter" "helicopter-attack" "infantry-air" "machinegun" "maintenance" "medical" "mortar" "motorized" "motorized-infantry" "recon" "recon-motorized" "signal" "sniper" "supply-motorized" "undefined"
+   }
+   m_FactionHomeTerritoryConfig SCR_FactionHomeTerritoryConfig "{65D8792E32263517}" {
+    m_aFactionHomeTerritories {
+     SCR_FactionHomeTerritory "{5A10E1F956AFDCC9}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F9556CF612}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F9554318BA}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F95539B6E0}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F9552EB332}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F955040C9F}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F955FAF0AC}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F955D0FC1D}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F955C5B417}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F955B92E7B}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F955AE2658}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F95583469C}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F9547822CA}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F8B248D886}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F8B23E4D3A}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F8B211C11C}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F8B206D536}" {
+     }
+     SCR_FactionHomeTerritory "{5A10E1F8B2FB456B}" {
+     }
+     SCR_FactionHomeTerritory "{5AEEE58D17F8B088}" {
+     }
+     SCR_FactionHomeTerritory "{5AEEE58D17BAE314}" {
+     }
+    }
+   }
+   m_BaseBuildingHQ "{7CB2EB208F93C6D4}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_FIA_01.et"
+   m_BaseBuildingSupplyDepot "{E8B6339148792C0E}PrefabsEditable/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_FIA_01.et"
+  }
+ }
+}
